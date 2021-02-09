@@ -26,7 +26,7 @@ public class UserService {
         for (int i = 0; i < 10; i++) {
             createUser(i);
         }
-//        throw new RuntimeException();
+        throw new RuntimeException();
     }
     
     @Transactional
